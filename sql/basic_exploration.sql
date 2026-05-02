@@ -1,5 +1,5 @@
 -- ============================================================
--- RetailEdge Sales Intelligence Platform
+-- SalesForge Sales Intelligence Platform
 -- File: basic_exploration.sql
 -- Purpose: Initial data exploration and quality checks
 -- ============================================================

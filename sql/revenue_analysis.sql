@@ -1,5 +1,5 @@
 -- ============================================================
--- RetailEdge Sales Intelligence Platform
+-- SalesForge Sales Intelligence Platform
 -- File: revenue_analysis.sql
 -- Purpose: Deep-dive revenue KPIs and trend analysis
 -- ============================================================

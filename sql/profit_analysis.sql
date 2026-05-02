@@ -1,5 +1,5 @@
 -- ============================================================
--- RetailEdge Sales Intelligence Platform
+-- SalesForge Sales Intelligence Platform
 -- File: profit_analysis.sql
 -- Purpose: Profit margin KPIs and loss-market identification
 -- ============================================================

@@ -1,4 +1,4 @@
-<h1 align="center">RetailEdge 📊 — Sales Performance Intelligence Platform</h1>
+<h1 align="center">SalesForge 📊 — Sales Performance Intelligence Platform</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge&logo=mysql&logoColor=white" />
@@ -7,13 +7,13 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
 </p>
 
-> **RetailEdge** is an end-to-end sales intelligence project built to transform raw transactional data into actionable business insights. Using MySQL for data extraction and transformation, and Tableau for interactive dashboards, this platform empowers sales teams and business leaders to make data-driven decisions with confidence.
+> **SalesForge** is an end-to-end sales intelligence project built to transform raw transactional data into actionable business insights. Using MySQL for data extraction and transformation, and Tableau for interactive dashboards, this platform empowers sales teams and business leaders to make data-driven decisions with confidence.
 
 ---
 
 ## 🧩 Project Overview
 
-Modern retail businesses generate enormous volumes of transaction data daily. Without structured analysis, identifying revenue trends, underperforming markets, or high-value customer segments is nearly impossible. **RetailEdge** bridges that gap by:
+Modern retail businesses generate enormous volumes of transaction data daily. Without structured analysis, identifying revenue trends, underperforming markets, or high-value customer segments is nearly impossible. **SalesForge** bridges that gap by:
 
 - Designing a clean **star schema** data model from raw OLTP data
 - Running advanced **SQL queries** for KPI extraction
@@ -51,14 +51,9 @@ transactions ──── customers
 
 ## 🚀 Setup Instructions
 
-### Step 1 — Clone & Import Database
+### Step 1 — Setup & Import Database
 
-```bash
-git clone https://github.com/yourusername/retailedge-sales-intelligence.git
-cd retailedge-sales-intelligence
-```
-
-Import the SQL dump into your MySQL instance:
+Open the project folder and import the SQL dump into your MySQL instance:
 
 ```bash
 mysql -u root -p < Databases/db_dump.sql
@@ -70,7 +65,7 @@ Or import `Databases/db_dump.xlsx` directly into Tableau.
 
 1. Open Tableau Public (free) or Tableau Desktop
 2. Connect to **MySQL** using your credentials, or use the `.xlsx` as a flat-file source
-3. Open `RetailEdge - Sales Performance Dashboard.twbx`
+3. Open `SalesForge - Sales Performance Dashboard.twbx`
 
 ### Step 3 — Run Python EDA (Optional)
 
@@ -249,7 +244,7 @@ HAVING net_profit < 0;
 ## 📁 Project Structure
 
 ```
-retailedge-sales-intelligence/
+salesforge/
 │
 ├── Databases/
 │   ├── db_dump.sql          # Full MySQL database dump
@@ -270,7 +265,7 @@ retailedge-sales-intelligence/
 │   ├── Tableau Dashbpard Revenue Analysis.png
 │   └── Tableau Dashbpard Profit Analysis.png
 │
-├── RetailEdge - Sales Performance Dashboard.twbx
+├── SalesForge - Sales Performance Dashboard.twbx
 └── README.md
 ```
 
@@ -319,7 +314,7 @@ Business Insights & Recommendations
 
 ## 📬 Contact
 
-Have questions or suggestions? Feel free to open an issue or reach out via GitHub.
+Have questions or suggestions? Feel free to reach out.
 
 ---
 
